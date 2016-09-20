@@ -1,14 +1,9 @@
 <h1>Hola</h1>
-<br>
-<%(0..50).each do |x| %>
-<%	if x.even? %>
-	<div>
-	  <%= x %>  Soy Par!
-	</div>
-	<% else %>
-  <div>
-    <%= x %>  Soy Impar!
-  </div>
 
+<%(1..50).each do |x| %>
+<%	if x.even? %>
+	<div> <%= x %>  Soy Par! </div>
+	<% else %>
+  <div> <%= x %>  Soy Impar! </div>
 	 <% end %>
 <% end %>
